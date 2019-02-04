@@ -54,3 +54,35 @@ div.plot-mid {
     position: absolute;
     left: 10%;
 }
+
+div.stats-bars.stats-spider {
+    margin-left: auto;
+}
+
+div.stats-bars {
+    width: 45%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.stats-bars h3 {
+    line-height: 1;
+}
+
+.stats-bars p {
+    margin: 10px 0;
+    line-height: 1;
+    text-align: left;
+}
+
+.stats-bars span.attribute {
+    font-size: 14pt;
+}
+
+.stats-bars span.text-muted {
+    font-size: 12pt;
+    color: #ececec;
+}
