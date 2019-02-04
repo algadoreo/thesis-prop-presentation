@@ -1,0 +1,56 @@
+.text-blue {
+    color: #1b91ff;
+}
+
+.text-red {
+    color: #ff2c2d;
+}
+
+.text-green {
+    color: #17ff2e;
+}
+
+.text-gold {
+    color: #f9a602;
+}
+
+div.bg-dark {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+p.large-margin {
+    margin: 50px 0;
+}
+
+p.no-margin {
+    margin: 0;
+}
+
+p.text-xlarge {
+    font-size: 5em;
+}
+
+p.text-large {
+    font-size: 2em;
+}
+
+p.text-mid {
+    font-size: 24pt;
+}
+
+p.text-small {
+    font-size: 14pt;
+}
+
+div.plot {
+    width: 90%;
+    position: absolute;
+    left: 3%;
+}
+
+div.plot-mid {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 567.72107 342.03174"
+   height="100%"
+   width="100%"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1">
+  <metadata id="metadata8">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs6">
+    <clipPath id="clipPath14" clipPathUnits="userSpaceOnUse"><path
+       id="path12"
+       d="M 0,0 H 612 V 792 H 0 Z" />
+    </clipPath>
+    <clipPath id="clipPath52" clipPathUnits="userSpaceOnUse"><path
+       id="path50"
+       d="M 123.6904,353.1703 H 497.1442 V 573.4561 H 123.6904 Z" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clipPath14)" transform="matrix(1.3333333,0,0,-1.3333333,-101.34387,771.112)" id="g23">
+    <g id="g46">
+      <g clip-path="url(#clipPath52)" id="g48">
+        <g transform="matrix(0.95609,0,0,0.95609,72,316.341)" id="g54"><path
+           id="path56"
+           style="fill:#4169e1;fill-opacity:0.5;fill-rule:nonzero;stroke:#4169e1;stroke-width:1.00002003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.5"
+           d="m 54.06439,174.3256 c 0,-8.36437 0,-16.72873 0,-25.0931 42.683674,3.67451 84.83313,12.81708 125.07853,27.54743 62.50711,22.65443 123.21433,49.88488 184.47628,75.63637 42.70966,19.0876 84.14268,40.9255 127.0508,59.5895 1.86433,0.83801 4.36381,1.25404 3.0356,4.17771 -0.75942,2.20546 1.31397,7.76646 -0.6405,8.55679 -22.50609,-4.40916 -43.36683,-14.62675 -63.6523,-24.9679 C 399.84579,284.38361 372.58433,264.61851 341.3134,252.5701 279.74902,227.46393 216.75282,205.44656 152.1351,189.6155 119.88802,181.97247 87.037976,177.38189 54.06439,174.3256 Z" />
+        </g>
+        <g transform="matrix(0.923516,0.2474552,-0.2474552,0.923516,124.3776,286.768)" id="g1092"><text
+           id="text1096"
+           style="font-style:italic;font-variant:normal;font-size:11.9552002px;font-family:'Source Sans Pro',Helvetica,sans-serif;fill:#4169e1;fill-opacity:0.9;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,144.861,192.596)"><tspan
+             id="tspan1094"
+             y="0"
+             x="0">Planck</tspan></text>
+        </g>
+        <g transform="matrix(0.923516,0.2474552,-0.2474552,0.923516,124.3776,286.768)" id="g1098"><text
+           id="text1102"
+           style="font-variant:normal;font-weight:normal;font-size:11.9552002px;font-family:'Source Sans Pro',Helvetica,sans-serif;fill:#4169e1;fill-opacity:0.9;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,184.899,192.596)"><tspan
+             id="tspan1100"
+             y="0"
+             x="0">noise</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

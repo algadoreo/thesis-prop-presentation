@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Thesis proposal presentation</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>reveal.js</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+
+        <!-- Load custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h5>Listening for the</h5>
+                    <h2>Echoes of inflation</h2>
+                    <small>with the SPIDER balloon-borne experiment</small>
+                </section>
+                
+                <section>
+                    <section>
+                        <p style="margin-left: -40%"><em>when cosmologists speak of</em></p>
+                        <p class="text-xlarge">$$ r $$</p>
+                        <p class="fragment" style="margin-left: 40%"><em>what is it?</em></p>
+                    </section>
+                    <section data-background="img/wmap.png"></section>
+                    <section data-background="img/wmap_inflation.png">
+                        <div style="position: absolute; width: 80%; height: 100%; right: 0">
+                            <h2>inflation</h2>
+                            <div class="fragment">
+                                <p class="large-margin text-mid">PRODUCES</p>
+                                <p class="no-margin">scalar perturbations</p>
+                                <p class="no-margin text-small">(large-scale structures)</p>
+                            </div>
+                            <div class="fragment">
+                                <p class="large-margin">&amp;</p>
+                                <p class="no-margin"><span class="text-blue">tensor perturbations</span></p>
+                                <p class="no-margin text-small">(gravitational waves)</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+                    <p class="text-large">$$ r = \frac{\Delta_\text{tensor}^2}{\Delta_\text{scalar}^2} $$</p>
+                    <p class="large-margin">the <span class="text-blue">tensor-to-scalar</span> ratio</p>
+                </section>
+
+                <section>
+                    <section data-background="img/planck_pol.jpg">
+                        <p class="text-xlarge" style="text-shadow: 3px 3px 0 #555">$r$</p>
+                        <h3 style="text-shadow: 3px 3px 0 #555">&hellip; is imprinted in the CMB</h3>
+                    </section>
+                    <section>
+                        <div class="container" style="display: grid; grid-template-columns: 40% 20% 40%; align-items: center;">
+                            <div class="grid-item fragment shrink" data-fragment-index="2">
+                                <h2><em>E</em>-modes</h2>
+                            </div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item fragment grow" data-fragment-index="2">
+                                <h2><em>B</em>-modes</h2>
+                            </div>
+                            <div class="grid-item" id="emodes" style="margin: 5%"></div>
+                            <div class="grid-item"><p class="text-small" style="color: #acacac">$k \rightarrow$</p></div>
+                            <div class="grid-item" id="bmodes" style="margin: 5%"></div>
+                            <div class="grid-item fragment shrink" data-fragment-index="2">
+                                <p class="text-mid">even</p>
+                            </div>
+                            <div class="grid-item">
+                                <p class="text-small" style="color: #acacac">parity</p>
+                            </div>
+                            <div class="grid-item fragment grow" data-fragment-index="2">
+                                <p class="text-mid">odd</p>
+                            </div>
+                            <div class="grid-item fragment shrink" data-fragment-index="2">
+                                <p class="text-mid">scalars + tensors</p>
+                            </div>
+                            <div class="grid-item">
+                                <p class="text-small" style="color: #acacac">primordial source</p>
+                            </div>
+                            <div class="grid-item fragment grow" data-fragment-index="2">
+                                <p class="text-mid">tensors only</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>Angular power spectrum</h4>
+                        <div class="plot" id="spider_bmodes_axesnovertaxis"></div>
+                        <div class="plot" id="spider_bmodes_bbprimp06"></div>
+                        <div class="plot fragment" id="spider_bmodes_planck" data-fragment-index="2"></div>
+                        <div class="plot fragment" id="spider_bmodes_axesvertaxis" data-fragment-index="2"></div>
+                        <div class="plot fragment" id="spider_bmodes_lensing" data-fragment-index="2"></div>
+                        <div class="plot fragment" id="spider_bmodes_bicep2keck" data-fragment-index="2"></div>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>SPIDER</h2>
+                    <p class="no-margin text-blue">$r$ sensitivity:</p>
+                    <p class="text-xlarge no-margin">0.03</p>
+                    <!-- <p class="text-small no-margin">(at 3$\sigma$)</p> -->
+                    <p class="text-mid fragment" data-fragment-index="2">through</p>
+                    <p class="fragment" data-fragment-index="2">instrument sensitivity + foreground removal</p>
+                </section>
+
+                <section>
+                    <section data-background="img/spider_gopro.jpg">
+                        <!-- <h2>Space-like environment</h2>
+                        <h1>Fraction of cost</h1> -->
+                        <h4 style="text-shadow: 3px 3px 0 #555;">Altitude:</h4>
+                        <h1 style="font-size: 5em; text-shadow: 3px 3px 0 #555;">35 KM</h1>
+                    </section>
+                    <section>
+                        <h5>Atmospheric transmission</h5>
+                        <div class="plot" id="spider_bands_axes"></div>
+                        <div class="plot" id="spider_bands_atm"></div>
+                        <div class="plot fragment" id="spider_bands_atm35"></div>
+                        <div class="plot fragment" id="spider_bands_co"></div>
+                        <div class="plot fragment" id="spider_bands_bands"></div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h5>10% of full sky</h5>
+                        <div class="plot" id="spider_field_bg"></div>
+                        <div class="plot" id="spider_field_field"></div>
+                    </section>
+                    <section>
+                        <h3>Foregrounds</h3>
+                        <div class="plot-mid" id="foregrounds_axes"></div>
+                        <div class="plot-mid" id="foregrounds_cmb"></div>
+                        <div class="plot-mid fragment" id="foregrounds_dust" data-fragment-index="2"></div>
+                        <div class="plot-mid fragment" id="foregrounds_sync" data-fragment-index="2"></div>
+                        <div class="plot-mid fragment" id="foregrounds_spider"></div>
+                    </section>
+                </section>
+
+                <section>
+                    <p class="text-large no-margin"><span style="font-weight: bold;">SPIDER:</span> $\; r <$ 0.03</p>
+                    <div class="plot" id="spider_bmodes_planck2"></div>
+                    <div class="plot" id="spider_bmodes_axes"></div>
+                    <div class="plot" id="spider_bmodes_bbprimp03"></div>
+                    <div class="plot" id="spider_bmodes_lensing2"></div>
+                    <div class="plot" id="spider_bmodes_bbtotal"></div>
+                    <div class="plot" id="spider_bmodes_spider"></div>
+                    <div class="plot" id="spider_bmodes_bicep2keck2"></div>
+                </section>
+
+                <section data-background="img/map-image.png">
+                    <p>SUMMER 2019</p>
+                    <small><em>Palestine, TX</em></small>
+                    <h3>Gondola integration</h3>
+                    <hr width="80%" />
+                    <p>NOV 2019 &ndash; FEB 2020</p>
+                    <small><em>Antarctica</em></small>
+                    <h3>Deployment</h3>
+                </section>
+
+                <section>
+                    <section data-background="img/spider_inserts.jpg">
+                        <div class="bg-dark">
+                            <h1>Gondola integration</h1>
+                            <p>Summer 2019: Palestine, TX</p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="fragment fade-out" data-fragment-index="1" style="padding: 10%; float: left; text-align: left">
+                            <h3>Assembly</h3>
+                            <p class="text-small">pivot</p>
+                            <p class="text-small">solar panels</p>
+                            <p class="text-small">sunshield frame</p>
+                            <p class="text-small">gondola frame</p>
+                            <p class="text-small">cryostat</p>
+                            <p class="text-small">reaction wheel</p>
+                            <p class="text-small">flight systems</p>
+                        </div>
+                        <!-- <div class="fragment fade-in-then-out" data-fragment-index="1" style="padding: 10%; float: left; position: absolute; text-align: left;">
+                            <p class="text-small">sunshield bracing</p>
+                            <p class="text-small">solar panel bracing</p>
+                            <p class="text-small">antennae mounts</p>
+                            <p class="text-small">magnetometer</p>
+                            <p class="text-small">star cameras</p>
+                            <p class="text-small">sun sensor array</p>
+                            <p class="text-small">software patches</p>
+                            <p class="text-small">thermometry system</p>
+                        </div> -->
+                        <div class="fragment" data-fragment-index="1" style="padding: 10%; float: left; position: absolute; text-align: left">
+                            <h3>Testing</h3>
+                            <p class="text-small">electrical systems</p>
+                            <p class="text-small">thermal&ndash;vacuum</p>
+                            <p class="text-small">compatibility</p>
+                            <p class="text-small fragment highlight-blue">scan testing</p>
+                        </div>
+                        <!-- <object id="spider_line" data="img/spider_line_white.svg" type="image/svg+xml" style="width: 50%"></object> -->
+                        <!-- <img src="img/spider_line_white.svg" width="50%" style="background: none; border: none;" /> -->
+                        <div id="spider_line_white" style="float: right; width: 50%;"></div>
+                    </section>
+                    <section data-background="img/scan_testing.gif"></section>
+                </section>
+
+                <section data-background="img/spider_sky.jpg">
+                    <h1 style="text-shadow: 3px 3px 0 #555;">Deployment</h1>
+                    <p style="text-shadow: 3px 3px 0 #555;">Late 2019: Antarctica</p>
+                </section>
+
+                <section>
+                    <section data-background="img/spider_traj.jpg">
+                        <div class="bg-dark">
+                            <h4>Post-flight analysis</h4>
+                            <hr width="20%" />
+                            <h1 class="fragment">Pointing solution</h1>
+                            <p><em>&hellip; where was the telescope pointing?</em></p>
+                        </div>
+                    </section>
+                    <section>
+                        <div><p class="text-mid fragment grow" data-fragment-index="2">star cameras</p></div>
+                        <div class="container" style="display: grid; grid-template-columns: repeat(3, 1fr);">
+                            <div class="grid-item"><p class="text-mid no-margin fragment grow
+                                " data-fragment-index="2">gyroscopes</p></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"><p class="text-mid no-margin fragment shrink" data-fragment-index="2">magnetometer</p></div>
+                        <!-- </div> -->
+                        <!-- <object id="spider_line" data="img/spider_line_white.svg" type="image/svg+xml" style="width: 30%"></object> -->
+                        <!-- <img src="img/spider_line_white.svg" width="30%" /> -->
+                            <div class="grid-item"></div>
+                            <div id="spider_line_white_small"></div>
+                            <div class="grid-item"></div>
+                        </div>
+                        <div class="container" style="display: grid; grid-template-columns: repeat(2, 1fr);">
+                            <div class="grid-item"><p class="text-mid fragment shrink" data-fragment-index="2">elevation arm encoders</p></div>
+                            <div class="grid-item"><p class="text-mid fragment shrink" data-fragment-index="2">sun sensor array</p></div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+                    <small>MAR&ndash;SEP 2020</small>
+                    <h3>Pointing solution</h3>
+                    <div class="fragment">
+                        <hr width="80%" />
+                        <small>OCT 2020 &ndash; MAR 2021</small>
+                        <h3>Map characterization</h3>
+                    </div>
+                    <div class="fragment">
+                        <hr width="80%" />
+                        <small>APR&ndash;OCT 2021</small>
+                        <h3>Foreground removal</h3>
+                    </div>
+                </section>
+
+                <section>
+                    <!-- <section>
+                        <h4><em>Planck</em>&ndash;SPIDER</h4>
+                        <h2>joint analysis pipeline</h2>
+                    </section> -->
+                    <section>
+                        <div class="plot" id="ssn" style="position: relative;"></div>
+                        <p>timestream drifts from <span class="text-gold">scan-synchronous noise</span></p>
+                        <p class="text-mid fragment" data-fragment-index="2">and</p>
+                        <p class="fragment" data-fragment-index="2"><span style="color: #87ceeb;">filtering</span> removes large-scale CMB signal</p>
+                    </section>
+                    <section>
+                        <h4>Get large-scale modes from <em>Planck</em></h4>
+                        <p>SPIDER: $\; S = \text{CMB} + N_S$</p>
+                        <p><em>Planck</em>: $\; P = \text{CMB} + N_P$</p>
+                        <div class="container">
+                            <div class="fragment fade-in-then-out" data-fragment-index="2">
+                                <p>$S - P = (\text{CMB} + N_S) - (\text{CMB} + N_P) = N_S - N_P$</p>
+                            </div>
+                            <div class="fragment fade-in-then-out" data-fragment-index="3">
+                                <p>$f(S - P) =
+                                    \begin{cases}
+                                        0 & \text{at low } \ell \text{s}\\
+                                        N_S - N_P & \text{at high } \ell \text{s}
+                                    \end{cases}$
+                                </p>
+                                <p class="text-small no-margin">(high-pass filter)</p>
+                            </div>
+                            <div class="fragment" data-fragment-index="4">
+                                <p>$f(S - P) + P =
+                                    \begin{cases}
+                                        \text{CMB} + N_P & \text{at low } \ell \text{s}\\
+                                        \text{CMB} + N_S & \text{at high } \ell \text{s}
+                                    \end{cases}$
+                                </p>
+                                <p class="text-gold">CMB recovered at all scales</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section data-background="img/spider_launch.jpg">
+                    <div>
+                        <h3 style="text-shadow: 3px 3px 0 #555;">SPIDER</h3>
+                        <p class="text-mid">will test inflationary models near</p>
+                        <p>$r \sim 0.03$</p>
+                        <h2 style="text-shadow: 3px 3px 0 #555;">Launching Late 2019</h2>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                controlsTutorial: false,
+                dependencies: [
+                    { src: 'js/load_svg_inline.js'},
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/math/math.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ],
+                progress: false
+            });
+        </script>
+    </body>
+</html>
