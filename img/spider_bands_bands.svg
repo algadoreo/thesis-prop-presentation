@@ -45,7 +45,16 @@
     <g id="g654" transform="translate(150.342,428.474)"><text
        id="text658"
        style="font-variant:normal;font-weight:normal;font-size:8px;font-family:'Source Sans Pro',Helvetica,sans-serif;writing-mode:lr-tb;fill:#aabbf3;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(1,0,0,-1,90.014,226.114)">SPIDER</text>
+       transform="matrix(1,0,0,-1,90.014,226.114)">SPIDER</text><text
+       id="text659"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro',Helvetica,sans-serif;writing-mode:lr-tb;fill:#244fe1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,121.014,50.114)">94</text><text
+       id="text660"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro',Helvetica,sans-serif;writing-mode:lr-tb;fill:#244fe1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,175.014,50.114)">150</text><text
+       id="text661"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro',Helvetica,sans-serif;writing-mode:lr-tb;fill:#244fe1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,255.014,50.114)">285</text>
     </g>
   </g>
 </svg>
