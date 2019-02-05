@@ -28,8 +28,7 @@ $(function(){
   $('#foregrounds_sync').load("img/cmb_foregrounds_sync.svg");
   $('#foregrounds_spider').load("img/cmb_foregrounds_spider.svg");
 
-  $('#spider_line_white').load("img/spider_line_white_simplified.svg");
-  $('#spider_line_white_small').load("img/spider_line_white_simplified.svg");
+  $('.spider_line_white, #spider_line_white_small').load("img/spider_line_white_simplified.svg");
 
   $('#ssn').load("img/ssn.svg");
 });

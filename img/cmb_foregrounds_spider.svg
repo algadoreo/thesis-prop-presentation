@@ -71,10 +71,16 @@
     <g transform="matrix(0.93373,0,0,0.93373,144,445.089)" id="g838"><text
        id="text842"
        style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Source Sans Pro',Helvetica,sans-serif;fill:#aabbf3;fill-opacity:0.75;fill-rule:nonzero;stroke:none"
-       transform="matrix(1,0,0,-1,235.044,225.475)"><tspan
-         id="tspan840"
-         y="0"
-         x="0">SPIDER</tspan></text>
+       transform="matrix(1,0,0,-1,235.044,225.475)">SPIDER</text><text
+       id="text842"
+       style="font-variant:normal;font-weight:normal;font-size:8px;font-family:'Source Sans Pro',Helvetica,sans-serif;fill:#aabbf3;fill-opacity:0.75;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,160.244,200.475)">94</text><text
+       id="text842"
+       style="font-variant:normal;font-weight:normal;font-size:8px;font-family:'Source Sans Pro',Helvetica,sans-serif;fill:#aabbf3;fill-opacity:0.75;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,182.644,200.475)">150</text><text
+       id="text842"
+       style="font-variant:normal;font-weight:normal;font-size:8px;font-family:'Source Sans Pro',Helvetica,sans-serif;fill:#aabbf3;fill-opacity:0.75;fill-rule:nonzero;stroke:none"
+       transform="matrix(1,0,0,-1,215.344,200.475)">285</text>
     </g>
   </g>
 </svg>
